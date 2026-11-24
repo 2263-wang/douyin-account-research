@@ -1,0 +1,16 @@
+# Local browser state and generated research data
+profile/
+toolkit/profile/
+toolkit/search-results/
+data/
+douyin-runs/
+demo-out/
+toolkit/*.json
+toolkit/*.log
+toolkit/*-dump.html
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example

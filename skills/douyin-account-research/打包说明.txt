@@ -1,0 +1,15 @@
+DSH 抖音账号运营 Skill
+打包日期：2026-11-06（北京时间）
+Skill 名称：douyin-account-research
+用途：选题调研、对标账号分析、评论区选题挖掘。
+
+来源核对：DSH 的 dsh-douyin-ops 插件明确引用此 Skill，当前配置指向 .dsh/skills/douyin-account-research，工具链指向 2232/dsh-browser。
+版本处理：对比 DSH 已安装目录、Codex 已安装目录及现有分发目录。同名代码文件保留本机修改时间较新的原文件，包含时长字段适配和 Windows PowerShell 路径修正。配套工具链也按同样规则选取；未改写原有业务代码。
+
+包内含 Skill 正文、完整分析脚本、浏览器工具链、示例数据及原有安装/自检脚本。所有文件位于同一个 douyin-account-research 目录，SKILL.md 位于该目录根部。
+可把这个目录复制到目标工具的个人 skills 目录；DSH 对应 ~/.dsh/skills/。原有 install.ps1/install.sh 的安装目标是 Codex，请按需要使用。
+详细操作参见 README.md、使用说明.md 和 SKILL.md。
+
+未打包浏览器登录态、Cookie、缓存、历史采集任务或本机账号配置。
+DSH 左侧栏入口插件是独立组件，本包为 Skill 及其工具链。
+MANIFEST.json 记录本包原文件的大小、来源类型、修改时间及 SHA-256。

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>dsh-browser · 抖音登录</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #0b0b0f; }
+  #bar { height: 34px; display: flex; align-items: center; gap: 12px;
+         padding: 0 12px; color: #bbb; font: 13px system-ui, sans-serif; }
+  #bar b { color: #00e0a0; }
+  iframe { width: 100%; height: calc(100% - 34px); border: 0; background: #16161c; }
+</style>
+</head>
+<body>
+  <div id="bar">
+    <span>dsh-browser</span>
+    <b>请在这个窗口里登录抖音（扫码）</b>
+    <span id="st">等待中…</span>
+  </div>
+  <iframe id="f" src="https://www.douyin.com/" allow="clipboard-write"></iframe>
+  <script>
+    const st = document.getElementById('st');
+    let n = 0;
+    setInterval(() => {
+      n++;
+      try { const d = document.getElementById('f').contentDocument;
+            if (d && d.body && d.body.innerText.length > 200) st.textContent = '已渲染 ✓'; }
+      catch (e) { st.textContent = '跨域（正常）· 已等待 ' + n + 's'; }
+    }, 1000);
+  </script>
+</body>
+</html>

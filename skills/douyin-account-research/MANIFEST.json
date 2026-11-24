@@ -1,0 +1,462 @@
+{
+  "skill": "douyin-account-research",
+  "packaged_at": "2026-11-06T14:10:20+08:00",
+  "selection": "Newest local file by modification time; source files unchanged",
+  "files": [
+    {
+      "path": "EXAMPLES.md",
+      "bytes": 11185,
+      "sha256": "124f563e5eb137e956a1603d06d60582e4aba8d45919340f91731c16fb4c450b",
+      "modified": "2026-10-13T10:00:01+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4171,
+      "sha256": "26c23560c1cea824cb917007ba6de98e80ce4077364964d137c494c5531fc9de",
+      "modified": "2026-10-12T11:14:59+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "REFERENCES.md",
+      "bytes": 17322,
+      "sha256": "2161f8f1dea22dc003a3e71770df477716fbe74d9860ebbc252949509c89ad9e",
+      "modified": "2026-10-13T10:43:48+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11634,
+      "sha256": "e096d24c2400f9352b19b917a29076cbbef0b79ed8f24b1ed29162cd26c09cbe",
+      "modified": "2026-10-13T10:43:35+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "examples/dates-demo-classified.json",
+      "bytes": 8722,
+      "sha256": "7b8d07cc01dabfc37185532708e991440e019736ccc94cc88a9ab4f7a4a4c3bc",
+      "modified": "2026-10-13T10:43:53+08:00",
+      "source": "Distribution examples"
+    },
+    {
+      "path": "examples/works-demo.json",
+      "bytes": 9409,
+      "sha256": "a989eb14d50c7ee2dae61fcd8339a4de43973d8df3ff83cb86fe2194782089f7",
+      "modified": "2026-10-13T10:43:53+08:00",
+      "source": "Distribution examples"
+    },
+    {
+      "path": "install.ps1",
+      "bytes": 1502,
+      "sha256": "fabf26acd9804ab1059f7b9496c17fff1185834bcfd6da1f4d23f7dbfc976e96",
+      "modified": "2026-10-13T10:43:53+08:00",
+      "source": "Distribution helper"
+    },
+    {
+      "path": "install.sh",
+      "bytes": 1331,
+      "sha256": "7072fe0c5f58d5661e9ab516de43f751c03a2419c6ec7f46418a8aefcd32b5a9",
+      "modified": "2026-10-12T15:43:47+08:00",
+      "source": "Distribution helper"
+    },
+    {
+      "path": "scripts/analyze.mjs",
+      "bytes": 34492,
+      "sha256": "a94a8068a97f3e85271af9a75cd648c49fb2ca0123869e5ef57ef0ba49f8eed8",
+      "modified": "2026-10-13T09:58:55+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/close-browser.mjs",
+      "bytes": 1022,
+      "sha256": "8cde5c3d789f026cc597904f067098dafa1c22755a6e1c5c8c99316472ceef11",
+      "modified": "2026-10-12T15:42:45+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/fetch-detail.mjs",
+      "bytes": 4163,
+      "sha256": "a46605e1c32a6fd9ecc374f30442ef3f18e3ac468d1378ecce078e0a6d5c5ac6",
+      "modified": "2026-10-13T10:41:14+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/launch.mjs",
+      "bytes": 5493,
+      "sha256": "1bc0b99536bb71fe1858ae2843a147916941fb4a12efbccb17d3f181c8995949",
+      "modified": "2026-10-12T16:23:45+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/lib/adapt.mjs",
+      "bytes": 17640,
+      "sha256": "15b0232bee63c3eb55c87fe7c64c653f1ad2e832da2e5b69388c9a828df22a9f",
+      "modified": "2026-10-14T09:37:12+08:00",
+      "source": "Existing distribution"
+    },
+    {
+      "path": "scripts/lib/browser-lifecycle.mjs",
+      "bytes": 4242,
+      "sha256": "bc6a0256b49b0fc0a561e988d496fa073b71a0ed6d4ee2d1bdc6caacb244249a",
+      "modified": "2026-10-13T10:42:29+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/lib/browser.mjs",
+      "bytes": 6889,
+      "sha256": "91fa682ecff9b00d843f8bb09d20f43bd0be3e4b2910afabcc571e2d2cb1042a",
+      "modified": "2026-10-13T17:41:18+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/lib/cdp.mjs",
+      "bytes": 2983,
+      "sha256": "d10cd63f3459ef8d65a9444020c3a1f2cd78961d44168ac33ad71c461a35286f",
+      "modified": "2026-10-12T09:56:18+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/lib/content-type.mjs",
+      "bytes": 7705,
+      "sha256": "1c108e4f329b545ae85663359dc54e4adcd22b2cd9e9c8efaaf45b87e9d397cd",
+      "modified": "2026-10-13T10:12:05+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/lib/toolkit.mjs",
+      "bytes": 2336,
+      "sha256": "a1cee25694a264ce588689b50c5cc3004dd6f2ce8f867699f9364bce354d5045",
+      "modified": "2026-10-12T15:42:25+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/normalize.mjs",
+      "bytes": 2353,
+      "sha256": "ad83d0aae8fa1b3103aff694e9986e7801fafbbe8dfefe491b3b13188c7156a5",
+      "modified": "2026-10-12T15:42:40+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/resolve-account.mjs",
+      "bytes": 3060,
+      "sha256": "0f041cc6963d10270b99c778e491e5fecadf9ffdf8095ad293495da9ec7d8a24",
+      "modified": "2026-10-12T16:05:00+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/resolve-share.mjs",
+      "bytes": 2791,
+      "sha256": "346d7e74c8ef30382a5c88dbf0d5049c4ff917a4c06c74753c53a3fa7c92227d",
+      "modified": "2026-10-13T10:41:22+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/run.mjs",
+      "bytes": 13388,
+      "sha256": "fa8a13bda4859ebfa68eef23915afa30f63f23eccf9a31ad4f23c0522303c88d",
+      "modified": "2026-10-12T16:14:47+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/to-simplified.py",
+      "bytes": 705,
+      "sha256": "52477902a20f847b228787ce2678e8ac5c30a8db20b123d4010716bcaed9f06f",
+      "modified": "2026-10-12T09:56:52+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/transcribe.mjs",
+      "bytes": 3888,
+      "sha256": "d6aa17db27fd7f633dc55dea1e97d74369e526530653ecbbbc454a95d52108f1",
+      "modified": "2026-10-12T09:56:44+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/transcribe.py",
+      "bytes": 3218,
+      "sha256": "6b5b56af3905315e2f146eeeb1b5567bd337eb76b3729f0b193d5ed14c9053b8",
+      "modified": "2026-10-12T09:56:52+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "scripts/verify-env.mjs",
+      "bytes": 3215,
+      "sha256": "767892ef4e26ee53fd6f061a1c130eca7ba84b10d6bb105328516d3b742a81c2",
+      "modified": "2026-10-12T16:24:59+08:00",
+      "source": "DSH installed skill"
+    },
+    {
+      "path": "toolkit/analyze.js",
+      "bytes": 3054,
+      "sha256": "2c740bf5cc230fd673f89215ce0e2e568df3cb6a10f94218bffc91c91f8e7783",
+      "modified": "2026-10-12T16:05:49+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/authors.js",
+      "bytes": 3731,
+      "sha256": "406d6dda9c46677e76b02111732e54b2cc90bf50c075d64bb9c061438d9465ac",
+      "modified": "2026-10-09T17:48:35+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/batch-works.js",
+      "bytes": 4573,
+      "sha256": "c1735851984b2665dee7ed1df1c62adf6483ce49330206c12268505adee86af1",
+      "modified": "2026-10-09T17:42:24+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/candidates.js",
+      "bytes": 2384,
+      "sha256": "1dc767ee1f5c21102e23fd9044b56f5589f12c13993d865983bb30abe0a6ed39",
+      "modified": "2026-10-09T17:35:25+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/classify.js",
+      "bytes": 5351,
+      "sha256": "f1c92e7d293f83cc35845154c33f0a1e8a0358907d4db5327333315c0a495e3c",
+      "modified": "2026-10-12T16:05:49+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/click-search.js",
+      "bytes": 5803,
+      "sha256": "cc727d0eb91a6e31ad3a6850be0aacc2fb6c83617613684bd844641b0cf193b1",
+      "modified": "2026-10-09T17:44:51+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/comments-probe.js",
+      "bytes": 2747,
+      "sha256": "412c964a02fb9f7693d861f7a6ffb86f98bc46262db573574262e9bb92461d05",
+      "modified": "2026-10-09T12:00:34+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/comments.js",
+      "bytes": 5119,
+      "sha256": "a02b71eee6a0f266f0b31ccf647ea943d762cb051afca25a351d12086561862d",
+      "modified": "2026-10-12T16:05:49+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/crawl.js",
+      "bytes": 10576,
+      "sha256": "edb5789aab0374ad7c40bbcd59d93de080aff0320db95ce1735ce539ac43b256",
+      "modified": "2026-10-12T15:41:35+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/dates-full.js",
+      "bytes": 4161,
+      "sha256": "db6bec2cf9001ffbde1c7743050fd4c58c6968cf6e40690d9dedc4a64c96f702",
+      "modified": "2026-10-12T16:05:49+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/dates.js",
+      "bytes": 4948,
+      "sha256": "0ad7a630df38e7cf61b5650248264a93daa7e3439efa1ad519d3165e704baf66",
+      "modified": "2026-10-14T09:34:21+08:00",
+      "source": "DSH configured toolkit"
+    },
+    {
+      "path": "toolkit/discover.js",
+      "bytes": 5397,
+      "sha256": "21346aafca67cec7a1d38c700f6cd351d981d4912ac43ebf23172b2f758e0eda",
+      "modified": "2026-10-09T17:41:58+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/engagement.js",
+      "bytes": 4330,
+      "sha256": "0f6e9bb06bfaa938864781ce6811b126164794eec46bb8d43680b6f49032fb1a",
+      "modified": "2026-10-09T17:58:44+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/extract.js",
+      "bytes": 5196,
+      "sha256": "105ec6cf1325b5d87ca19e2c7871706e88e1bed4cba5022a733b722c28e2c2c0",
+      "modified": "2026-10-09T11:37:52+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/find.js",
+      "bytes": 2851,
+      "sha256": "79ecfdf5d6d5231ff66d6dadf76bd8b1a3ea17e85ff6ffc321028e4169f76cea",
+      "modified": "2026-10-12T16:05:49+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/keywords.txt",
+      "bytes": 372,
+      "sha256": "d29b9d174d8bbb7f06417a883b4877b5304c9ed151c707fde052369842700ad3",
+      "modified": "2026-10-09T17:45:10+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/launch.ps1",
+      "bytes": 2491,
+      "sha256": "10d14dd0289db57fa5475eaae7fafda5a7b64f0b562712f589d611f5f7d847c8",
+      "modified": "2026-10-13T10:43:53+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/launch.sh",
+      "bytes": 853,
+      "sha256": "b7a58392257f44ff62c8d16872747a8d6dba67d554b8f82a7a88953faf5e9ae1",
+      "modified": "2026-10-12T15:42:01+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/login.html",
+      "bytes": 1091,
+      "sha256": "45469eeb0d91c76f55a36361ab13d9fbf940e34c8e4c68ce3080e2ab81e72cb4",
+      "modified": "2026-10-09T11:34:58+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/login.js",
+      "bytes": 6310,
+      "sha256": "1445f9188da546a3163b23950afa7b8514f61e2f544fa255bde618c314ad63f6",
+      "modified": "2026-10-12T15:41:45+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/merge-search.js",
+      "bytes": 3411,
+      "sha256": "3a802bb75ce133f9ff0be5702046f0875f14a5d91b0dc1c481625eb4c10bad9f",
+      "modified": "2026-10-09T17:48:17+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/open.ps1",
+      "bytes": 1493,
+      "sha256": "4aa390b194cf032c934e43c83b321639c4f9d8568f352c2660c32fe4a02226ea",
+      "modified": "2026-10-13T10:43:53+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/probe.js",
+      "bytes": 2711,
+      "sha256": "3f9e81573824dff7a2891e1209c903c911791c79ab2bc3df9daf520549f6714c",
+      "modified": "2026-10-09T11:37:38+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/probe2.mjs",
+      "bytes": 1866,
+      "sha256": "c366a56e2cc4cb161a41937b4c58f041782ec557c242e20c042688ea3e009bb7",
+      "modified": "2026-10-09T11:37:44+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/probe3.js",
+      "bytes": 2942,
+      "sha256": "5e8c9433a105fdf543a80a4716350a3ddeeee4d35c6f5d7af359296665413d4c",
+      "modified": "2026-10-09T11:40:22+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/profile.js",
+      "bytes": 5716,
+      "sha256": "a127af68a912cfdc95ada99bae5b511b8117e2812950a556df077f70888958da",
+      "modified": "2026-10-12T16:05:49+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/rank.js",
+      "bytes": 1996,
+      "sha256": "cf81f0136f26b673cc586f0bc57b7b563c44c0b572844b959c9e015f993e3142",
+      "modified": "2026-10-09T17:43:46+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/read.js",
+      "bytes": 2476,
+      "sha256": "4fecc9e524e896509695540b2781fa12dc133cd08a4b4cfa4620eff28bb89e9c",
+      "modified": "2026-10-12T16:05:49+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/search-batch.ps1",
+      "bytes": 937,
+      "sha256": "07ce80a0bc98318fc9706bbdc0c7965983b2e641715e364ff5a8655b454f56e5",
+      "modified": "2026-10-13T10:43:53+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/start.ps1",
+      "bytes": 1677,
+      "sha256": "975d7fdb622f5532754bc441d9b0a6c7200da903a06735a8f5205575e7256eb1",
+      "modified": "2026-10-13T10:43:53+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/timeline.js",
+      "bytes": 2362,
+      "sha256": "0dba1e67bea7933f634ec241a7a881c87ff5e1fcca66777297879c4b4d8d6f41",
+      "modified": "2026-10-12T16:05:49+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/vsrch-batch.js",
+      "bytes": 946,
+      "sha256": "538b63946da702cbb0c1156933562bc9e5ea8f7a484ea728b6a57bdc1e83063a",
+      "modified": "2026-10-09T17:44:43+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/vsrch-file.js",
+      "bytes": 1138,
+      "sha256": "dfc1696ee7aac7ac7d15287bba6f03bef80ccac979d9ee9ec1daac888dd83aa7",
+      "modified": "2026-10-09T17:45:07+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/vsrch.js",
+      "bytes": 4350,
+      "sha256": "972f13f4976aa03238118877c42306d31cd0e7c6fbc9247e8e34e2c880e61c68",
+      "modified": "2026-10-09T17:44:21+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "toolkit/vstats.js",
+      "bytes": 4780,
+      "sha256": "8d2768f97ecdaa2eca2a47d6fc01c02d4095767b6abdd484fc3e261a71389f23",
+      "modified": "2026-10-14T09:37:04+08:00",
+      "source": "DSH configured toolkit"
+    },
+    {
+      "path": "toolkit/works.js",
+      "bytes": 6227,
+      "sha256": "47d1647ac08e225166fff2c35544f24f04aeb72d2659573a003736ea2998a729",
+      "modified": "2026-10-09T13:28:05+08:00",
+      "source": "Distribution toolkit"
+    },
+    {
+      "path": "verify-env.ps1",
+      "bytes": 2572,
+      "sha256": "da9871c1eb6632361a3fb948b5a5b3912511b05c0703d3dea93b25aba85108ec",
+      "modified": "2026-10-13T10:43:53+08:00",
+      "source": "Distribution helper"
+    },
+    {
+      "path": "verify-env.sh",
+      "bytes": 650,
+      "sha256": "55846bd449f10539d8e3a144749a9383d071a3fa5b35bdf5baf3094bb0aad488",
+      "modified": "2026-10-12T15:43:47+08:00",
+      "source": "Distribution helper"
+    },
+    {
+      "path": "使用说明.md",
+      "bytes": 8581,
+      "sha256": "ab54cc24c118d9934ae642138cd14ccd22ba1262e881f3b2f5c1278f06c38efb",
+      "modified": "2026-10-12T16:24:31+08:00",
+      "source": "Distribution usage guide"
+    }
+  ]
+}
